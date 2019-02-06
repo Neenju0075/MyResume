@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{:#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutColon}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutBold}[2]{
+  \item\small{
+    {#1:#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemWithoutBold}[2]{\resumeItemWithoutBold{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/niranjanan-h}{{\Large Niranjanan H}}} & Email : \href{mailto:h.niranjanan@gmail.com}{h.niranjanan@gmail.com}\\
+  \href{https://www.niranjanan.co.nf}{www.niranjanan.co.nf}  & Mobile : +91-9566478282 \\
+\end{tabular*}
+  \begin{center}
+   \href{https://www.linkedin.com/in/niranjanan-h}{https://www.linkedin.com/in/niranjanan-h}
+  \end{center}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Urjanet}{Chennai, India}
+      {Software Engineer - Java{Intern+FullTime}}{Jan 2017 - Present}
+      \resumeItemListStart
+      	 \resumeItemWithoutColon{}
+	 {Worked on a various Products and Services - Utility and Payment Data service, Auto-monitoring + Ticketing, and automation of various processes from acquisition to delivery.}
+           \resumeItemWithoutColon{}
+          {I worked on chatbot, to simulate the conversation between the customer and client services team in our company}.
+          \resumeItemWithoutColon{}
+          {I also worked on continuous integration/Delivery (DevOps) - Using Jenkins, Serverless, Ansible, Gradle - deploying to AWS}.
+          \resumeItemWithoutColon{}
+          {\textbf{Technologies \& Frameworks Used}: Java, Play for Java, SpringBoot, Hibernate, SQL, Unix scripts.}
+           \resumeItemWithoutColon{}
+          {\textbf{Tools Used}: Gradle, Jenkins, Ansible, Activator for play, Maven, Kinesis, SQS, LEX, Lambda, JIRA, Slack, Confluence}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Ramakrishna Institute of Technology}{Coimbatore, India}
+      {B.E - Computer Science and Engineering;  CGPA: 8.1}{May 2012 -- June 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------COURSEWARE-----------------
+\section{Courses}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {ORACLE Exam - NIIT}{}
+      {Programming in Java}{Jan 2015-Jul 2015}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Udacity}{}
+      {Linux Academy Aws Essentials}{Dec 2018 -- Jan 2019}
+  \resumeSubHeadingListEnd
+  
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Java, C, C++, SQL.}
+     %   \\[0.1in] %2-line-break
+    \item
+      \textbf{Technologies}{: Spring-boot, Play for Java, Hibernate, JPA, AWS, Basics of HTML and css}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%-----------Achievements-----------------
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubItem {\href{https://drive.google.com/file/d/0ByYNj-1udG4iTFU4czFnWGo1b2M/view}{Gold Medal Award}}
+      { Scored Higher in my department and awarded Gold Medal in the name of Sri.R. Doraiswamy Naidu founder of Ramakrishna Institutions }
+    \resumeSubItem{\href{https://drive.google.com/file/d/0B1MYSgkEaqi2TU04RUtzTWp4bHVQMndlY1M4alZ1T1F3TzJF/view?usp=sharing}{Participated in Smart India Hackathon 2k17}}{Competed in the Smart India one day hackathon where AAI airports collect feedback forms as part of customer satisfaction, grievance feedback mechanism. Project is to collect the data electronically in the form of an APP with selectable parameters and rating under ca43|Airport Authority of India, Ministry of Civil Aviation}
+    \resumeSubHeadingListEnd
+
+\end{document}
+\grid
+\grid
+\grid
+\grid
