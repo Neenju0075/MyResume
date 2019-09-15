@@ -19,7 +19,7 @@
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
-\fancyfoot[CE,CO]{***The bold words and the Header in the resume are clickable links.}
+% \fancyfoot[CE,CO]{***The bold words and the Header in the resume are clickable links.}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -45,13 +45,13 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{:#2 \vspace{-2pt}}
+    \textbf{#1}{:#2 \vspace{-4pt}}
   }
 }
 
 \newcommand{\resumeItemWithoutColon}[2]{
   \item\small{
-    \textbf{#1}{#2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-4pt}}
   }
 }
 
@@ -88,10 +88,11 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.linkedin.com/in/niranjanan-h}{{\Large Niranjanan H}}} & Email : \href{mailto:h.niranjanan@gmail.com}{h.niranjanan@gmail.com}\\
-  \href{http://www.niranjanan.co.nf}{www.niranjanan.co.nf}  & Mobile : +91-9566478282 \\
+  \href{http://www.niranjanan.co.nf}{www.niranjanan.co.nf}& Mobile : {+91-9566478282} \\
 \end{tabular*}
   \begin{center}
-   \href{https://www.linkedin.com/in/niranjanan-h}{https://www.linkedin.com/in/niranjanan-h}
+   \href{https://www.linkedin.com/in/niranjanan-h}{\small https://www.linkedin.com/in/niranjanan-h}\\
+   \href{https://github.com/Neenju0075}{\small https://github.com/Neenju0075}
   \end{center}
 
 %-----------EXPERIENCE-----------------
@@ -99,19 +100,17 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Urjanet}{Chennai, India}
-      {Software Engineer - Java{Intern+FullTime}}{Jan 2017 - Present}
+      {\large Urjanet}{Chennai, India}
+      {Software Engineer - Java{Intern+FullTime}}{Jan 2017 -- Present}
       \resumeItemListStart
       	 \resumeItemWithoutColon{}
 	 {Worked on a various Products and Services - Utility and Payment Data service, Auto-monitoring + Ticketing, and automation of various processes from acquisition to delivery.}
            \resumeItemWithoutColon{}
-          {I worked on chatbot, to simulate the conversation between the customer and client services team in our company}.
+          {I worked on chatbot, to simulate the conversation between the customer and client services team in our company.}
           \resumeItemWithoutColon{}
-          {I also worked on continuous integration/Delivery (DevOps) - Using Jenkins, Serverless, Ansible, Gradle - deploying to AWS}.
+          {I also worked on continuous integration/Delivery (DevOps) - Using Jenkins, Serverless, Ansible, Gradle - deploying to AWS.}
           \resumeItemWithoutColon{}
-          {\textbf{Technologies \& Frameworks Used}: Java, Play for Java, SpringBoot, Hibernate, SQL, Unix scripts.}
-           \resumeItemWithoutColon{}
-          {\textbf{Tools Used}: Gradle, Jenkins, Ansible, Activator for play, Maven, Kinesis, SQS, LEX, Lambda, JIRA, Slack, Confluence, Liquibase, Amazon-Kinesis-Stream.}
+   {Teams and Products Worked in Urjanet - Automon, Monocle, YAMA, KATE-ChatBot, Extraction, ITD.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -122,7 +121,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Sri Ramakrishna Institute of Technology}{Coimbatore, India}
-      {B.E - Computer Science and Engineering;  CGPA: 8.1}{May 2013 -- June 2017}
+      {B.E - Computer Science and Engineering;  CGPA: 8.1;}{May 2013 -- June 2017}
   \resumeSubHeadingListEnd
 
 
@@ -131,7 +130,7 @@
   \resumeSubHeadingListStart
   \resumeSubheading
       {ORACLE Exam - NIIT}{}
-      {Programming in Java}{Jan 2015-Jul 2015}
+      {Programming in Java}{Jan 2015 -- Jul 2015}
   \resumeSubHeadingListEnd
 
   \resumeSubHeadingListStart
@@ -148,7 +147,11 @@
       \textbf{Languages}{: Java, C, C++, SQL.}
      %   \\[0.1in] %2-line-break
     \item
-      \textbf{Technologies}{: Spring-boot, Play for Java, Hibernate, JPA, Liquibase, AWS, Basics of HTML and css}
+      \textbf{Technologies \& Frameworks Used}{: SpringBoot, Hibernate, JPA, SQL, Gradle, Jenkins, Activator for play, Maven, Ansible, REST-API, Liquibase, AWS \{Kinesis, SQS, Route-53, Cloudformation, EC2, LEX, Lambda, IAM, S3\}, Play framework, Unix scripts, Basics of HTML and CSS.}
+
+    \item
+      \textbf{Tools Used}{: GIT, VSCode, Eclipse, Confluence, JIRA, Slack.}
+
     }
   \resumeSubHeadingListEnd
 
@@ -159,11 +162,22 @@
 \section{Achievements}
   \resumeSubHeadingListStart
     \resumeSubItem {\href{https://drive.google.com/file/d/0ByYNj-1udG4iTFU4czFnWGo1b2M/view}{Gold Medal Award}}
-      { Scored Higher in my department and awarded Gold Medal in the name of Sri.R. Doraiswamy Naidu founder of Ramakrishna Institutions }
-    \resumeSubItem{\href{https://drive.google.com/file/d/0B1MYSgkEaqi2TU04RUtzTWp4bHVQMndlY1M4alZ1T1F3TzJF/view?usp=sharing}{Participated in Smart India Hackathon 2k17}}{Competed in the Smart India one day hackathon where AAI airports collect feedback forms as part of customer satisfaction, grievance feedback mechanism. Project is to collect the data electronically in the form of an APP with selectable parameters and rating under ca43|Airport Authority of India, Ministry of Civil Aviation}
+      { Scored Higher in my department and awarded Gold Medal in the name of Sri.R. Doraiswamy Naidu founder of Ramakrishna Institutions.}
+    \resumeSubItem{\href{https://drive.google.com/file/d/0B1MYSgkEaqi2TU04RUtzTWp4bHVQMndlY1M4alZ1T1F3TzJF/view?usp=sharing}{Participated in Smart India Hackathon 2k17}}{Competed in the Smart India one day hackathon where AAI airports collect feedback forms as part of customer satisfaction, grievance feedback mechanism. Project is to collect the data electronically in the form of an APP with selectable parameters and rating under ca43|Airport Authority of India, Ministry of Civil Aviation.}
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------GITHUB Projects-----------------
+\section{\href{https://github.com/Neenju0075}{Github projects}}
+  \resumeSubHeadingListStart
+    \resumeSubItem {\href{https://github.com/Neenju0075/MyResume}{CV in LaTex}}
+      { A single-page, one-column resume for developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. LaTeX is a high-quality typesetting system, It includes features designed for the production of technical and scientific documentation.}
+    \resumeSubItem{\href{https://github.com/Neenju0075/My_portFolio}{PortFolio}}
+    { A basic portfolio website, designed using HTML,CSS and Bootstrap from scratch.}
     \resumeSubHeadingListEnd
 
 \end{document}
+\grid
 \grid
 \grid
 \grid
