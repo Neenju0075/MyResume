@@ -1,0 +1,15 @@
+# LaTeX auxiliary and build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# Editor/IDE
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
