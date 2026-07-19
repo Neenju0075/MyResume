@@ -1,21 +1,38 @@
 # MyResume
-Resume in Latex
 
-### What is Latex?
-   LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in WYSIWYG word processors like Microsoft Word, LibreOffice Writer and Apple Pages.
+A single-page developer resume written in LaTeX.
 
-### why resume in Latex?
-   A single-page, one-column resume developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are  experience, education and projects. Inspired by https://github.com/sb2nov
+This repository contains:
 
-### LaTeX Document Formatting and Creation:
+- `niranjanan_resume.tex` — LaTeX source for the resume
+- `niranjanan_resume.pdf` — compiled PDF (generated from the .tex file)
+- Auxiliary/compile files (`.aux`, `.log`, `.out`)
 
-Once you have prepared and saved a .tex file, it still must be compiled before it can be turned into a readable document. There are several ways this may be done:
+Quick build
 
- - Using the command line/terminal
- - Using a Graphical User Interface (GUI) LaTeX editor/compiler
+1. Install a TeX distribution (TeX Live on Linux/macOS, MiKTeX on Windows) or use a LaTeX editor such as TeXmaker.
+2. From the repository root run:
 
-For more info kindly refer: https://guides.lib.wayne.edu/latex/compiling
+   pdflatex niranjanan_resume.tex
 
-I have installed tex maker to compile and generate pdf.
+   (Repeat once if necessary, or use `latexmk -pdf niranjanan_resume.tex` to build automatically.)
 
-Kindly refer here for installation in ubuntu system: https://ejumss.wordpress.com/2017/08/08/how-to-install-latex-on-ubuntu-16-04/
+3. Output: `niranjanan_resume.pdf`
+
+Edit & contribute
+
+- Modify `niranjanan_resume.tex` to update content or formatting, then recompile as above.
+- Keep commits small and describe content changes in commit messages.
+
+Notes
+
+- This template is inspired by sb2nov's LaTeX resume templates and is intended for a clean, single-column developer CV.
+
+License
+
+- MIT
+
+Contact
+
+- Author: Niranjanan H — h.niranjanan@gmail.com
+- GitHub: https://github.com/Neenju0075
