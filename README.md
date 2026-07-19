@@ -11,11 +11,21 @@ This repository contains:
 Quick build
 
 1. Install a TeX distribution (TeX Live on Linux/macOS, MiKTeX on Windows) or use a LaTeX editor such as TeXmaker.
-2. From the repository root run:
+
+2. From the repository root run a compiler directly:
 
    pdflatex niranjanan_resume.tex
 
-   (Repeat once if necessary, or use `latexmk -pdf niranjanan_resume.tex` to build automatically.)
+   (Repeat once if necessary.) Or use latexmk to handle multiple runs automatically:
+
+   latexmk -pdf niranjanan_resume.tex
+
+One-command build (recommended)
+
+- Linux/macOS: make build
+- Windows: double-click build.bat or run build.bat from the repository root in PowerShell/CMD
+
+This uses latexmk when available and produces `niranjanan_resume.pdf` in the repo root.
 
 3. Output: `niranjanan_resume.pdf`
 
